@@ -18,6 +18,15 @@ For use with Fiedler Audio's Dolby Atmos Beam plugin. Allows you to use Ableton 
 
 The device uses the Live API to observe the track's volume parameter and applies that same volume scaling to the audio passing through the device. It includes smart context detection using JavaScript to determine whether it's placed directly on a track or inside an Audio Effect Rack chain, automatically adjusting its internal pathing to maintain functionality in either scenario.
 
+## Usage in Live
+
+1. Create an audio effect track.
+2. Add Beam Volumator and Fiedler Dolby Atmos Beam in the first chain.
+3. Set Beam to "Muted".
+4. Optionally, create a "pass through" chain if you have a need to send audio out of the channel.
+
+![image](https://github.com/user-attachments/assets/421332fe-0e42-4bf3-99e2-7ad73507e567)
+
 ## License
 
 MIT
@@ -25,3 +34,5 @@ MIT
 ## Author
 
 Tobey Forsman
+
+
