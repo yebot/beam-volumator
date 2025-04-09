@@ -31,8 +31,5 @@ The device uses the Live API to observe the track's volume parameter and applies
 
 MIT
 
-## Author
-
-Tobey Forsman
 
 
