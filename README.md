@@ -27,9 +27,16 @@ The device uses the Live API to observe the track's volume parameter and applies
 
 ![image](https://github.com/user-attachments/assets/421332fe-0e42-4bf3-99e2-7ad73507e567)
 
+## Release Notes
+
+### 1.1 - April 9, 2025
+
+- Updated javascript to recursively identify which parent object is the actual audio track to mimic.
+
+### 1.0 - April 8, 2025
+
+- First release
+
 ## License
 
 MIT
-
-
-
